@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&family=Ropa+Sans:ital@0;1&family=Rosarivo:ital@0;1&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+
+
+
+.footer {
+    height: 360px; 
+    background-color: #121212;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+}
+
+.logo {
+    top: 36px; left: 75px;
+    position: absolute;
+    font-family: 'Ubuntu' sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 27.7235px;
+    line-height: 32px;
+    color: #C4C4C4
+}
+
+.feedback {
+    display: flex;
+    left: 70px; top:80px;   
+    width: 300px;
+    position: absolute;
+}
+
+
+.feedbackInput {
+    position: absolute;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    width: 875px;
+    height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    line-height: 1;
+    padding: 10px 100px 10px 30px;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: medium;
+}
+
+.feedbackInput::placeholder {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: medium;
+    color: rgba(206, 23, 67, 0.5);
+}
+
+.feedbackButton {
+    right: -570px; top: 3px; bottom: 3px;
+    border: 0;
+    background: #A31033;
+    margin: 0;
+    padding: 0 10px;
+    border-radius: 100px;
+    z-index: 2;
+    position: absolute;
+    width: 43px;
+    height: 42px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.feedbackButton svg{
+    display: flex;
+    justify-content: center;
+    margin:4px;
+}
+
+
+.footerColumn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.footerColumn h3{
+    position: relative;
+    white-space: nowrap;
+}
+
+.footerColumn li{
+    display: block;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.footerColumn li a{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.footerColumn  li a:hover{
+    padding-left: 8px;
+    color: white;
+}
+
+.footerColumn .socialMenu h3{
+    margin-left: 50px;
+}
+
+.footerColumn .socialMenu ul{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.footerColumn .socialMenu a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255,255,255,0.2);
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height:50px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+        cursor: pointer;
+}
+
+.socialMenu a:hover{
+        color: #24262b;
+        background-color: #ffffff;
+}
+
+
+.footerRow{
+    margin-top: 10em; margin-left: 1.5em;
+    position: relative;
+    display: flex;
+    color: #ADADAD;
+    column-gap: 6em;
+}
+
+.footerRow a{
+    text-decoration: none;
+    color: inherit;
+}
