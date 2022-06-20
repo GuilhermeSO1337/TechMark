@@ -40,7 +40,7 @@
     color: #110F47;
   }
   #login1{
-    margin-top: -6%;
+    margin-top: -7%;
     text-align: center;
     margin-left: 28%;
     margin-right: -30%;
@@ -98,5 +98,5 @@
     z-index: 3000000000;
     position: fixed;
     margin-left: 78%;
-    margin-top: 2%;
+    margin-top: 1%;
   }

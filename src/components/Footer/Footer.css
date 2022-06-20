@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&family=Ropa+Sans:ital@0;1&family=Rosarivo:ital@0;1&family=Ubuntu:wght@300;400;500;700&display=swap');
+.footer{
+    background: #0B0808;
+}
+.footerRow{
+    margin-top: -3%;
+    display: flex;
+    gap: 20%;
+    margin-left: 6%;
+    color: white;
+}
+.logo{
+    padding-top: 2%;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+.feedback{
+    margin-left: 6%;
+}
+.Estrela{
+    display: flex;
+    width: 30%;
+}

@@ -8,6 +8,7 @@ import About from "../components/About/about";
 import Negocio2 from "../components/carrossel1/carrosel1";
 import Regioes from "../components/Regioes/regioes";
 import Parcerias from "../components/Parcerias/parceria";
+import Footer from '../components/Footer/Footer';
 function Home() {
     return(
         <div>
@@ -20,6 +21,7 @@ function Home() {
             <Negocio2/>
             <Regioes/>
             <Parcerias/>
+            <Footer/>
         </div>
     )
 };

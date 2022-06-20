@@ -11,6 +11,7 @@
     background: #044acb20;
     margin-top: 10%;
     text-align: center;
+    margin-bottom: 3%;
 }
 .Negocios_parcerias1{
     align-items: center;
@@ -31,4 +32,7 @@
     font-size: 150%;
     margin-bottom: 3%;
     padding-top: 2%;
+}
+.avaliacao{
+width: 2%;
 }

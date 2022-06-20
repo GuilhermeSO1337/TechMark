@@ -10,7 +10,7 @@ function Regioes(){
     return(
         <section className='regioes1'>
                 <div>
-            <h3 className="Leitura_regioes">Procure por Regiões</h3>
+            <h3 className="Leitura_regioes">Procure por São Paulo</h3>
         </div>
         <div className='carrossel_regioes'>
               <InfiniteCarousel 
