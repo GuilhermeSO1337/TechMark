@@ -44,7 +44,7 @@ function Footer() {
                     <div className="footerColumn">
                         <h3>PARCERIAS</h3>
                         <li><a>BraillinCode</a></li>
-                        <li><a>We&Me</a></li>
+                        <li><a>WeAMe</a></li>
                         <li><a>Loquei</a></li>
                     </div>
                     <div className="footerColumn">

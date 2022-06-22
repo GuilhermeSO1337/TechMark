@@ -1,5 +1,6 @@
 import './login.css'
 import svg from './close.svg'
+import { Link } from 'react-router-dom';
 
 function Login() {
     function fechar(){
@@ -12,7 +13,7 @@ function Login() {
           <input type="email" name="" id="e-mail" placeholder="Digite seu e-mail..."/>
           <input type="password" name="" id="senha" placeholder="Digite sua senha"/> 
             <a href="" className="forget">Esqueceu a senha?</a>     
-            <a href="" className="create">Criar conta</a>
+            <Link to="/cadastre"  className="create">Criar conta</Link>
             <a href="" className="hn">Hospede seu negócio </a>   
             <button type="submit" className="entrar">Entrar</button>
           </form>

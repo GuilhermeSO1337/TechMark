@@ -85,7 +85,7 @@ function Navbar() {
             <ul className={active}>
                 <li className="nav_item"><Link to='/' className="nav_link">Home</Link></li>
                 <li className="nav_item"><a href="#" className="nav_link1">Comércios</a></li>
-                <li className="nav_item"><a href="#" className="nav_link2">Hospede</a></li>
+                <li className="nav_item"><Link to='/hospede' className="nav_link2">Hospede</Link></li>
                 <li className="nav_item"><Link to='/cadastre' className="nav_link3">Cadastre-se</Link></li>
             </ul>
             <div className="botoes" method="post">
