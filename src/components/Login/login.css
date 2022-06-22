@@ -1,0 +1,102 @@
+.login{
+    display: none;
+    background-color:white;
+    border: 2px solid;
+    border-color: #110F47;
+    width: 17vW;
+    height: 45vh;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 3000000000;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 2%;
+      
+  }
+  #e-mail{
+    width: 25%;
+    margin-top: 3%;
+    border: 2px solid;
+    border-color: #110F47;
+    border-radius: 10px;
+  }
+  .login1{
+    background: none;
+  }
+  #senha{
+    display: flex;
+    margin-top: 2%;
+    width: 25%;
+    border: 2px solid;
+    border-color: #110F47;
+    border-radius: 10px;
+  }
+  .close{
+    border: none;
+    display: flex;
+    float: right;
+    margin-right: 85%;
+    margin-top: 3%;
+    color: #110F47;
+  }
+  #login1{
+    margin-top: -7%;
+    text-align: center;
+    margin-left: 28%;
+    margin-right: -30%;
+    font-size: 100%;
+    font-weight: 700;
+    color: #110F47;
+   
+  }
+  .forget{
+    font-size: 70%;
+    margin-left: 12%;
+    font-weight: 700;
+    color: #110F47;
+    margin-bottom: 1%;
+  }
+  
+  .create{
+    margin-left: 1.4%;
+  display: flex;
+  font-size: 80%;
+  margin-top: .5%;
+  font-weight: 800;
+  color: #110F47;
+  }
+  .entrar{
+    width: 10%;
+    border-radius: 10px;
+    color: #ffff;
+    margin-left: 16%;
+    margin-top: -40px;
+    display: flex;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+  }
+  .hn {
+    display: flex;
+    font-size: 70%;
+    margin-top: .2%;
+    font-weight: 800;
+    margin-left: 1.5%;
+    color: #110F47;
+    max-width: 10%;
+  }
+
+  .Login{
+    background-color: #212121;
+    display: none;
+    border: 2px solid;
+    border-color: #110F47;
+    width: 17vW;
+    height: 45vh;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 3000000000;
+    position: fixed;
+    margin-left: 78%;
+    margin-top: 1%;
+  }
